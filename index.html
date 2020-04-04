@@ -26,6 +26,7 @@
       </div>
 
       <h3>History</h3>
+
       <ul id="list" class="list">
         <!-- <li class="minus">
           Cash <span>-$400</span><button class="delete-btn">x</button>
@@ -45,10 +46,22 @@
           >
           <input type="number" id="amount" placeholder="Enter amount..." />
         </div>
-        <button class="btn">Add transaction</button>
+        <button id="edit-button" class="btn" onclick="handleSelectedValue()">
+          EDIT
+        </button>
+        <button id="submit-button" class="btn">Add transaction</button>
       </form>
     </div>
-
+    <footer>
+      <div>
+        Designed and Developed by
+        <a href="http://www.garyallin.uk" target="_blank"> Gary Allin</a> and
+        hosted by
+        <a href="http://www.trilogywebsolutions.co.uk" target="_blank"
+          >Trilogy Web Solutions</a
+        >
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
